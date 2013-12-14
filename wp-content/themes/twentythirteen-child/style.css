@@ -1,0 +1,116 @@
+/*
+ Theme Name:     Twenty Thirteen Child
+ Theme URI:      http://example.com/twenty-thirteen-child/
+ Description:    Twenty Thirteen Child Theme
+ Author:         Franca Creative Studio
+ Author URI:     http://example.com
+ Template:       twentythirteen
+ Version:        1.0.0
+*/
+@import url("../twentythirteen/style.css");
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+img{
+	border: 0;
+}
+.slide {
+	width: 100%;
+}
+.clear{
+	clear:both;
+	}
+.invisible{
+	display:hidden;
+	}
+/*------------------------------------------------------*/
+/*                        NAV                           */
+/*------------------------------------------------------*/
+nav{
+	background:rgba(255,255,2555,0.5);
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:70px;
+	z-index:20;
+	}
+nav ul{
+	float:right;
+	}
+nav ul li{
+	float:left;
+	}	
+nav ul li a{
+	display:block;
+	padding:5px;
+	margin:5px;
+	background:#000;
+	color:#fff;
+	}	
+/*------------------------------------------------------*/
+/*                        HOME                          */
+/*------------------------------------------------------*/
+#home{	
+	color: white;
+	margin: -30px auto 0px;
+	height:700px;
+}
+#video{
+	width:500px;
+	height:300px;
+	background:#000;
+	color:#fff;
+	}	
+
+/*------------------------------------------------------*/
+/*                     Separador                        */
+/*------------------------------------------------------*/
+#separador{
+	width:100%;
+	height:268px;
+	position:absolute;
+	top:600px;
+	left:0;
+	}		
+/*------------------------------------------------------*/
+/*            Quienes Somos / galeria                   */
+/*------------------------------------------------------*/
+#somos{
+	color: white;
+	height: 1300px;
+	margin: 0px auto;
+	overflow: hidden;
+	padding: 0;
+	background-color:none;
+}
+.galeria img{
+	margin:10px;
+	float:left;
+	}
+
+/*------------------------------------------------------*/
+/*                         Reunion                      */
+/*------------------------------------------------------*/
+#reunion{
+	color: white;
+	height: 1150px;
+	padding: 100px 0 0 0;	
+}
+
+/*------------------------------------------------------*/
+/*                         Contacto                     */
+/*------------------------------------------------------*/
+#contacto{
+	background: #ccc;
+	height: 400px;
+	margin: 0 auto;
+	padding: 40px 0 0 0;
+}
+/*------------------------------------------------------*/
+/*                         Footer                       */
+/*------------------------------------------------------*/
+
